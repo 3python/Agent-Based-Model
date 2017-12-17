@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+The following is taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_internal and adapted.
+This is what I have used to know how to make css style sheets for my website.
+I have taken other information from https://www.w3schools.com/html/ and https://www.w3schools.com/css/default.asp
+to figure out how to make websites in html
+-->
+<html>
+<head>
+<style>
+body {
+    background-color: LightSteelBlue;
+    font-family: "Calibri"
+}
+
+h1 {
+    text-align: center;
+    color: BlueViolet;
+    font-size: 250%;
+    
+} 
+
+h2 {
+   text-align: left;
+   color: BlueViolet;
+   }
+   
+p {
+   text-align: justify;
+   color: white;
+   }
+   
+ul {
+   text-align: left;
+   color: white;
+   }
+li {
+   text-align: left;
+   color: white;
+   }
+
+</style>
+</head>
+<html>
+<body>
+<header>
+<h1>Kate Benny</h1>
+<p>Click <a href="https://getech.com/globe/">here</a> to view my linked in profile and CV.</p>
+</header>
+<br>
+<img src="hands.JPG" alt="Image of author wearing a yellow zip up hoodie and a height chart behind them measured in hands">
+<br>
+<br>
+<header>
+<h2>Background</h2>
+<p>BSc in Geological Sciences</p>
+<p>Career mapping past global environments as part of the Globe team for <a href="https://getech.com/globe/"> Getech Group Plc</a> </p>
+</header>
+<br>
+<header>
+<h2>Research I have been involved in includes:</h2>
+<ul style="list-style-type:disc">
+   <li>A Reconstruction of Global Sediment Fluxes Since the Late Jurassic: Fact, Fiction or Wishful thinking? <a href="http://www.searchanddiscovery.com/abstracts/html/2011/annual/abstracts/Markwick.html"> Link<a/></li>
+   <li>New high-resolution geodynamic and landscape evolution models for Africa from the Permian to the present day. <a href="https://library.seg.org/doi/abs/10.1190/ice2016-6493784.1"> Link<a/>.</li>
+   <li>The Paleogeographic Evolution of the Arctic and North Atlantic Oceans during the Cretaceous. <a href="http://www.searchanddiscovery.com/abstracts/html/2011/3Parctic/abstracts/markwick.htm"> Link<a/></li>
+</ul>
+<br>
+<p>Due to the effects of burning fossil fuels on climate change I am making a career change and studying a MSc in River Basin Dynamics and Management with GIS at the University of Leeds.</p>
+</header>
+<br>
+<header>
+<h2>Particular areas of interest are </h2>
+<ul style="list-style-type:disc">
+   <li>flood risk modelling</li>
+   <li>using computer programs to solve environmental problems</li> 
+   <li>spatial analysis of data</li>
+</ul>
+</header>
+<br>
+<header>
+<h2>Progamming experience</h2>
+<p>Studied a computing module in python programming. Details of the course content can be found <a href="http://www.geog.leeds.ac.uk/courses/computing/study/core-python/outline.html"> here<a>. It has taught me about the core python language and object orientation.</p>
+<p>As part of this project. I have developed an agent based model.</p>
+<p>This model, mimics the effects of sheep randomly grazing an imaginary environment. The model does this by specifying a number of agents (sheep) to be generated, and a number of times they will graze (number of iterations).
+Starting locations for the agent (sheep) positions is then loaded into the script. A grid of numbers is also loaded into the script and converted into a list of number pairs of the format
+[[y0, x0],[y1, x1],[y2,x2] etc] which is used to represent the topography of the environment the sheep are grazing on.
+The agents (sheep) are then moved a set number of times in a random direction and each time they move they eat the environment. As a consequence of this, the values of the topography list, which is called environment decreases and the stomach contents
+of the sheep increases. If the sheep are within a certain distance of each other, they share resources. 
+A visualisation of this model is then run showing the agents moving across the envrionment and a decreasing height of the environment as they eat into it.
+This model consits of two files. The model file, which is the script to be run and the class file called agentframework which defines the characteristics of the agent class. It consists of a set of functions to define i.e. how the sheep move,
+ eat and share food between themselves. The agent class allows information to be passed into all the agents which enables the agents to know, for example what all the agents have eaten. </p>
+<br>
+<p>To view this model click this <a href="https://github.com/3python/Agent-Based-Model"> here<a></p>
+<p>To view my github website, click <a href="https://github.com/3python?tab=repositories">here<a></p>
+</header>
+</body>
+</html>
